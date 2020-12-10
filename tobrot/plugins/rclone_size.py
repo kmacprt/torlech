@@ -34,7 +34,7 @@ async def check_size_g(client, message):
     gautam = gau.decode("utf-8")
     print(gautam)
     await asyncio.sleep(5)
-    await message.reply_text(f"🔊CloudInfo:\n\n{gautam}")
+    await message.reply_text(f"🔊CloudInfo:\n\n{kavinduaj}")
     await del_it.delete()
 
 #gautamajay52
