@@ -6,7 +6,7 @@ class Config(object):
     # The Telegram API things
     APP_ID = int(os.environ.get("APP_ID" ))
     API_HASH = os.environ.get("API_HASH")
-    OWNER_ID = int(os.environ.get("OWNER_ID",-1001236396940 ))
+    OWNER_ID = int(os.environ.get("OWNER_ID",1131653685 ))
     # Get these values from my.telegram.org
     # to store the channel ID who are authorized to use the bot
     AUTH_CHANNEL = set(int(x) for x in os.environ.get("AUTH_CHANNEL", "").split())
@@ -37,8 +37,8 @@ class Config(object):
     CUSTOM_FILE_NAME = os.environ.get("CUSTOM_FILE_NAME", "")
     LEECH_COMMAND = os.environ.get("LEECH_COMMAND", "leech")
     YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl")
-    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "")
-    DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "TorrentLeech-Gdrive")
+    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "type = drive\nscope = drive\nroot_folder_id = 1ugGQR35PZbG5SjNv53XGWvlj3LZO8aCP\ntoken = {"access_token":"ya29.a0AfH6SMB8vHjRhTQ3f3wQDQR4lGs_dUqf1NjbMvWwcZR54UyRHglU85p-Rdvjrl-ySTvWPspz8oQs0yJ7gnHPcGH9D0AyKckTZEyWCBmu3hD-jshrf9ehs4NV3AmtcX7OCMaBKLLBCq_pKy0C14B8Rv6-WCh4jZAJ7Xx020MhvdU","token_type":"Bearer","refresh_token":"1//09ej-bKtn5UUzCgYIARAAGAkSNwF-L9IrkGaaqi0csdGtIkMfQQKau1x6HpmJpi8VO5Bq9Knz2kt5I8FqV3ICpNuqNfqDt1NaKPw","expiry":"2020-12-12T09:52:12.844069+05:30"}")
+    DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "Gdrive bot")
     GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech")
     INDEX_LINK = os.environ.get("INDEX_LINK", "")
     TELEGRAM_LEECH_COMMAND_G = os.environ.get("TELEGRAM_LEECH_COMMAND_G", "tleech")
