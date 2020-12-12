@@ -37,7 +37,7 @@ class Config(object):
     CUSTOM_FILE_NAME = os.environ.get("CUSTOM_FILE_NAME", "")
     LEECH_COMMAND = os.environ.get("LEECH_COMMAND", "leech")
     YTDL_COMMAND = os.environ.get("YTDL_COMMAND", "ytdl")
-    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "type = drive\nscope = drive\nroot_folder_id = 1ugGQR35PZbG5SjNv53XGWvlj3LZO8aCP\ntoken = {"access_token":"ya29.a0AfH6SMB8vHjRhTQ3f3wQDQR4lGs_dUqf1NjbMvWwcZR54UyRHglU85p-Rdvjrl-ySTvWPspz8oQs0yJ7gnHPcGH9D0AyKckTZEyWCBmu3hD-jshrf9ehs4NV3AmtcX7OCMaBKLLBCq_pKy0C14B8Rv6-WCh4jZAJ7Xx020MhvdU","token_type":"Bearer","refresh_token":"1//09ej-bKtn5UUzCgYIARAAGAkSNwF-L9IrkGaaqi0csdGtIkMfQQKau1x6HpmJpi8VO5Bq9Knz2kt5I8FqV3ICpNuqNfqDt1NaKPw","expiry":"2020-12-12T09:52:12.844069+05:30"}")
+    RCLONE_CONFIG = os.environ.get("RCLONE_CONFIG", "")
     DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "Gdrive bot")
     GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech")
     INDEX_LINK = os.environ.get("INDEX_LINK", "")
